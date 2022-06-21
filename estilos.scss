@@ -1,0 +1,37 @@
+
+
+$cajas: (
+    1: #873e23,
+    2: #eab676,
+    3:#eeeee4, 
+);
+
+@each $caja, $color in $cajas {
+    .caja#{$caja}{
+        background-color: $color;
+        height: 25vh;
+    }
+    
+}
+
+@mixin justify-content{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+
+.texto{
+    @include justify-content;
+}
+
+.ordenCaja{
+    color: green;
+    border-radius: 5%;
+
+}
+
+.boton{
+    width: 25%;
+    height: 25%;
+    @extend .ordenCaja;
+}

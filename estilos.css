@@ -1,0 +1,24 @@
+.caja1 {
+  background-color: #873e23;
+  height: 25vh; }
+
+.caja2 {
+  background-color: #eab676;
+  height: 25vh; }
+
+.caja3 {
+  background-color: #eeeee4;
+  height: 25vh; }
+
+.texto {
+  display: flex;
+  flex-direction: row;
+  justify-content: center; }
+
+.ordenCaja, .boton {
+  color: green;
+  border-radius: 5%; }
+
+.boton {
+  width: 25%;
+  height: 25%; }
